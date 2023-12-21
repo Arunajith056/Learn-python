@@ -1,3 +1,22 @@
+# control flow 
+# if, else, elif (conditional statements)
+# relational operators 
+a= 100
+b=20
+# comparison operator and logical operators
+c=True
+if c:
+	if a >= 500:
+		print("Hi")
+else:
+	print("is false value")
+if a != b:
+	print("yes not equal")
+else:
+	print("no is equal")
+
+
+
 # age check ---
 # num = int(input("enter your age: "))
 # if num >=18 :

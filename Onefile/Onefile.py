@@ -52,21 +52,34 @@ Emailid = input("enter your email: ")
 phone_number  = input("enter your number ")
 print(f'UserName:{name}\nEmail:{Emailid}\nPh:{phone_number}')
 # math operation"""
-# control flow 
-# if, else, elif (conditional statements)
-# relational operators 
-a= 100
-b=20
-# comparison operator and logical operators
-c=True
-if c:
-	if a >= 500:
-		print("Hi")
-else:
-	print("is false value")
-if a != b:
-	print("yes not equal")
-else:
-	print("no is equal")
-	
+# string slicing
+# index position
+# slicing[start:stop:step]
+# name ="Ajithkumar"
+# print(name[0:5])
+# print(name[5:])
+# print(name[::-1])
+# print(name[-5:-1])
+# print(name[2:-5])
+# # slicing method 
+# x= slice(2,8)
+# y= slice(0,5)
+# z=slice(2,8,2)
+# print(name[x])
+# print(name[y])
+# print(name[z])
+# assigment -string method
+# name = "Happy"
+# print(name[0])
+# print(name[:2])
+# print(name[:3])
+# print(name[:4])
+# print(name[:5])
+# #reverse
+# print(name[-1])
+# print(name[-2:])
+# print(name[-3:])
+# print(name[-4:])
+# print(name[-5:])
+
 
