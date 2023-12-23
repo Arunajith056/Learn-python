@@ -46,3 +46,6 @@ print(length)
 list6=[1,2.5,"chennai","hello",3,7,True]
 sorted_list = sorted(list6, key=str)# to avoid the typeerror give the key=str that convert the all the data types 
 print(sorted_list)
+salar =['praphas','prithvraj']
+salar.extend("yash")# extends iterate the value store the each one in list 
+print(salar)

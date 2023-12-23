@@ -78,3 +78,9 @@ else:
 # else:
 # 	print(f'{num3} is the largest number')
 # Always order the condition in  higher to lower for correct condition
+# ternary operators or conditional expressions
+user_text = str(input("enter something"))
+print("hello") if user_text.lower()== "hello" else print("oops") #first tell the condition for if and else part 
+# can also use the elif condition 
+print("hello") if user_text.lower()=="hello" else print("bye") if user_text.lower()=="bye"else print("oops")# give the if after the else that consider as elif condition 
+
