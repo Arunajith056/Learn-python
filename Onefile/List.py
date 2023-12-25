@@ -49,3 +49,25 @@ print(sorted_list)
 salar =['praphas','prithvraj']
 salar.extend("yash")# extends iterate the value store the each one in list 
 print(salar)
+# 2dimensional list 
+# copy -shallow copy and deep copy 
+cities=["chennai","cuddalore","villupuram","thiruvanamalai"]
+tn = cities 
+andhra=["hydrabhad","telugana","thirupati"]
+karnataka=["banglore","mysore"]
+india=[tn,andhra,karnataka]# 2dimensional
+cities.remove("chennai")
+print(cities)
+print(tn)#that will delete also in tn because of pointing the reference of the cities memory location 
+# create in new location use shallow copy for 1dimensional list 
+tn = cities[:]
+# now remove or modify something see the changes
+cities.remove("villupuram")
+print(cities)
+print(tn)
+#deep copy for 2dimensional list 
+import copy 
+india_state = copy.deepcopy(india)
+print(india_state)
+# function -count,index,
+# use loop and conditional statements
