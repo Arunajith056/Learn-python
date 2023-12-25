@@ -50,3 +50,29 @@ def variable_n(*args):
 		num += i
 	return num 
 print(variable_n(1,2,3,4,5,))
+
+
+#recursion function
+#A function can call itself. This is known as recursion
+def fact(num):
+	''' num from user get factorial of num'''
+	if num == 0:                  
+		return 1
+	return num*fact(num-1) 
+
+print(fact(4))
+
+#Generators
+#Generators allow you to create iterators in a more concise way. They use the yield keyword to produce a series of values.
+def sum_num(num):
+	for i in range(0,num+1):
+		print(i*i)
+sum_num(5)
+#but in generator
+def sum_gen(num):
+	for i in range(0,num+1):
+		yield i*i
+gen_output = sum_gen(5)
+print(gen_output)
+for i in gen_output:
+	print(i)
