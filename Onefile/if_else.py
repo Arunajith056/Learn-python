@@ -81,6 +81,8 @@ else:
 # ternary operators or conditional expressions
 user_text = str(input("enter something"))
 print("hello") if user_text.lower()== "hello" else print("oops") #first tell the condition for if and else part 
-# can also use the elif condition 
-print("hello") if user_text.lower()=="hello" else print("bye") if user_text.lower()=="bye"else print("oops")# give the if after the else that consider as elif condition 
+# can also use the elif condition
+# give the if after the else that consider as elif condition  
+print("hello") if user_text.lower()=="hello" else print("bye") if user_text.lower()=="bye"else print("oops")
+
 

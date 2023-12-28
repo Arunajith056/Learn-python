@@ -70,6 +70,7 @@ print(f'UserName:{name}\nEmail:{Emailid}\nPh:{phone_number}')
 # print(name[z])
 # assigment -string method
 # name = "Happy"
+# print(name[:])
 # print(name[0])
 # print(name[:2])
 # print(name[:3])

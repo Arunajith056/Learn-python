@@ -12,4 +12,12 @@ User1 = Bike("Mv233",90000)
 
 User2 = Evbike("MDJ3",58959)
 User2.ride()
-User1.ride()
+User1.twowheeler()
+
+# multiple inheritance
+user = Flight("cm23", 100000)
+user.cm_1()
+user=Auto()
+user.bus()
+
+hello()

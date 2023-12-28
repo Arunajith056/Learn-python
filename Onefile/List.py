@@ -71,3 +71,13 @@ india_state = copy.deepcopy(india)
 print(india_state)
 # function -count,index,
 # use loop and conditional statements
+# any and all function
+bool_list=[True, True, True, True]
+if any(bool_list):
+	print("At least one element is True.")
+else:
+	print("Al elements are False")
+if all(bool_list):
+	print("At least one element is True.")
+else:
+	print("Al elements are False")
